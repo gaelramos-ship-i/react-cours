@@ -2,7 +2,7 @@
 
 ## Qu'est ce qu'un Hook ?
 - **Les problèmes avant les hooks :** Les composants de classe étaient lourds, le cycle de vie (componentDidMount, etc.) était complexe, et la logique était difficile à partager.
-- **La solution :** Les hooks (apparaus avec REact 16.8) sont des fonctions spéciales qui permettent de "s'accocher" (to hook into) aux fonctionnalités de React (état, cycle de vie) depuis des composants fonctionnels.
+- **La solution :** Les hooks (apparaus avec React 16.8) sont des fonctions spéciales qui permettent de "s'accocher" (to hook into) aux fonctionnalités de React (état, cycle de vie) depuis des composants fonctionnels.
 - **Règles d'or :**
     - Toujours appeler au niveau supérieur (pas dans des boucles ou des conditions) 
     - Uniquement dans des composants fonctions React (ou d'autres hooks personnalisés)
@@ -33,7 +33,7 @@
 - **Intérêt de l'utilisateur :** Le but principal est d'améliorer considérablement l'experience utilisateur (UX) en évitant les blocages ou les saccades (Les fameux "freezes"). Au lieu de paralyser l'écran pendant le calcul d'un filtre complexe ou le rendu d'une énorme liste, l'utilisateur peut continuer à interagir de manière fluide (par exmeple, continuer à taper au clavier). L'état `isPending` fourni par le hook est également parfait pour afficher un petit indicateur de chargement, montrant que l'application travaille en tâche de fond.
 
 ## Gestion des formulaires avec `Formik` et `Yup`
-- **Le problèe :** Gérer les formulaires natifs en React demande beaucoup de code (gestion de chaque champ, des erreurs, de la soumission).
+- **Le problème :** Gérer les formulaires natifs en React demande beaucoup de code (gestion de chaque champ, des erreurs, de la soumission).
 - **La solution Formik :** Gère l'état du formulaire, les événements de changement et la soumission de manière déclarative.
 - **La solution Yup :** Bibliothèque de validation de schéma
 
